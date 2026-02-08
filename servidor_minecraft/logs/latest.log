@@ -1,0 +1,715 @@
+[17:54:19] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
+[17:54:20] [ForkJoinPool-1-worker-4/WARN]: Mod ctov uses the version 3.6.1a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:54:23] [main/WARN]: Warnings were found!
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.11.1 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'More Mobs' (moremobs) 1.5.8+mod recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'More Mobs' (moremobs) 1.5.8+mod recommends any version of modmenu-badges-lib, which is missing!
+	 - You should install any version of modmenu-badges-lib for the optimal experience.
+ - Mod 'Spawn Animations' (spawnanimations) 1.11.3+mod recommends any version of mr_spawn_animationscompats, which is missing!
+	 - You should install any version of mr_spawn_animationscompats for the optimal experience.
+ - Mod 'VillagerConfig' (villagerconfig) 4.5.2 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[17:54:23] [main/INFO]: Loading 170 mods:
+	- advancednetherite 2.3.1-1.21.11
+	- architectury 19.0.1
+	- balm 21.11.6
+	   \-- kuma_api 21.11.12
+	- better_respawn 1.21.11-2.0.6
+	- biomesoplenty 21.11.0.26
+	   \-- net_jodah_typetools 0.6.3
+	- cardinal-components 7.3.0
+	   |-- cardinal-components-base 7.3.0
+	   |-- cardinal-components-block 7.3.0
+	   |-- cardinal-components-chunk 7.3.0
+	   |-- cardinal-components-entity 7.3.0
+	   |-- cardinal-components-item 7.3.0
+	   |-- cardinal-components-level 7.3.0
+	   |-- cardinal-components-scoreboard 7.3.0
+	   \-- cardinal-components-world 7.3.0
+	- carryon 2.9.0
+	- chunky 1.4.55
+	- cicada 0.14.3+1.21.9-1.21.10
+	   \-- org_yaml_snakeyaml 2.2
+	- cloth-config 21.11.153
+	   \-- cloth-basic-math 0.6.1
+	- clumps 29.0.0.1
+	- collective 8.13
+	- comforts 14.0.0+1.21.11
+	   |-- cardinal-components-base 7.3.0
+	   |-- cardinal-components-entity 7.3.0
+	   \-- spectrelib 0.20.1+1.21.11
+	        |-- com_electronwill_night-config_core 3.8.3
+	        \-- com_electronwill_night-config_toml 3.8.3
+	- connectedglass 1.1.14
+	- connectiblechains 2.5.7+1.21.11
+	   \-- com_moulberry_mixinconstraints 1.0.9
+	- ctov 3.6.1a
+	- deimos 2.5
+	- do_a_barrel_roll 3.8.3
+	   |-- fabric-permissions-api-v0 0.6.1
+	   \-- mixinsquared 0.1.2-beta.4
+	- doubledoors 7.2
+	- durabilitytooltip 1.1.6
+	- easy_npc 6.7.1
+	- easy_npc_bundle 6.7.1
+	- easy_npc_config_ui 6.7.1
+	- easymagic 21.11.0
+	- elevatorid 1.21.11-1.15.0
+	- enchantinginfuser 21.11.1
+	- fabric-api 0.141.3+1.21.11
+	   |-- fabric-api-base 1.0.5+4ebb5c083e
+	   |-- fabric-api-lookup-api-v1 1.6.114+20dc27073e
+	   |-- fabric-biome-api-v1 17.1.1+4fc5413f3e
+	   |-- fabric-block-api-v1 1.1.10+4ebb5c083e
+	   |-- fabric-block-view-api-v2 1.0.39+4ebb5c083e
+	   |-- fabric-command-api-v2 2.4.7+6b42a6003e
+	   |-- fabric-content-registries-v0 10.2.14+4fc5413f3e
+	   |-- fabric-convention-tags-v1 2.1.55+7f945d5b3e
+	   |-- fabric-convention-tags-v2 2.17.3+8ef948ba3e
+	   |-- fabric-crash-report-info-v1 0.3.23+4ebb5c083e
+	   |-- fabric-data-attachment-api-v1 1.8.47+eed0806f3e
+	   |-- fabric-data-generation-api-v1 23.4.0+69974c4e3e
+	   |-- fabric-dimensions-v1 4.0.28+4fc5413f3e
+	   |-- fabric-entity-events-v1 3.1.1+1d0ab4303e
+	   |-- fabric-events-interaction-v0 4.1.0+3b89ecf63e
+	   |-- fabric-game-rule-api-v1 2.0.3+4fc5413f3e
+	   |-- fabric-item-api-v1 11.5.20+d0c46b9e3e
+	   |-- fabric-item-group-api-v1 4.2.36+4fc5413f3e
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f3e
+	   |-- fabric-lifecycle-events-v1 2.6.15+4ebb5c083e
+	   |-- fabric-loot-api-v2 3.0.73+3f89f5a53e
+	   |-- fabric-loot-api-v3 2.0.20+78c8b4663e
+	   |-- fabric-message-api-v1 6.1.12+4ebb5c083e
+	   |-- fabric-model-loading-api-v1 6.0.15+4fc5413f3e
+	   |-- fabric-networking-api-v1 5.1.5+ae1e07683e
+	   |-- fabric-object-builder-api-v1 21.1.39+4fc5413f3e
+	   |-- fabric-particles-v1 4.2.11+4fc5413f3e
+	   |-- fabric-recipe-api-v1 8.2.3+4ebb5c083e
+	   |-- fabric-registry-sync-v0 6.2.5+1718722b3e
+	   |-- fabric-renderer-api-v1 8.0.3+f4ffd2e53e
+	   |-- fabric-renderer-indigo 5.0.3+f4ffd2e53e
+	   |-- fabric-rendering-fluids-v1 3.1.43+4ebb5c083e
+	   |-- fabric-rendering-v1 16.2.10+0290ad933e
+	   |-- fabric-resource-conditions-api-v1 5.0.35+4fc5413f3e
+	   |-- fabric-resource-loader-v0 3.3.4+4fc5413f3e
+	   |-- fabric-resource-loader-v1 1.0.10+78c8b4663e
+	   |-- fabric-screen-api-v1 3.1.7+4ebb5c083e
+	   |-- fabric-screen-handler-api-v1 1.3.161+4fc5413f3e
+	   |-- fabric-serialization-api-v1 1.0.5+4ebb5c083e
+	   |-- fabric-sound-api-v1 1.0.51+4fc5413f3e
+	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
+	   |-- fabric-transfer-api-v1 6.0.25+4fc5413f3e
+	   \-- fabric-transitive-access-wideners-v1 7.1.0+014c8cec3e
+	- fabric-language-kotlin 1.13.8+kotlin.2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.2
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.18.4
+	   \-- mixinextras 0.5.0
+	- fallingtree 1.21.11.2
+	- farmersdelight 1.21.11-3.4.6+refabricated
+	   \-- mm 2.3
+	- forgeconfigapiport 21.11.1
+	   |-- com_electronwill_night-config_core 3.8.3
+	   \-- com_electronwill_night-config_toml 3.8.3
+	- framework 0.13.11
+	   |-- com_electronwill_night-config_core 3.8.3
+	   |-- com_electronwill_night-config_toml 3.8.3
+	   |-- org_javassist_javassist 3.30.2-GA
+	   \-- org_reflections_reflections 0.10.2
+	- fusion 1.2.12+a
+	- fzzy_config 0.7.5+1.21.11
+	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.6.1
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- glitchcore 21.11.0.2
+	   \-- net_jodah_typetools 0.6.3
+	- goblintraders 1.11.4
+	- incendium 5.4.10
+	- infinitetrading 4.6
+	- jamlib 1.3.5+1.21.11
+	   \-- blue_endless_jankson 1.2.3
+	- java 21
+	- konkrete 1.9.18
+	- lithostitched 1.5.8+beta1
+	- mc-armor-hud 8.1.1.3
+	- mcef 2.1.9
+	- mcwdoors 1.1.2
+	- mcwlights 1.1.5
+	- melody 1.0.15
+	- mes 2.0.0
+	- midnightlib 1.9.2
+	- minecraft 1.21.11
+	- mobconfig 1.1.0
+	- mobsunscreen 4.0.3
+	- moogs_structures 1.1.0-1.21.11-fabric
+	- moremobs 1.5.8+mod
+	- mr_armor_stand12poses 1
+	- mr_expanded_armorenchantings 1.9
+	- mr_rpg_enchantments 1.1.2
+	- mr_true_ending 1-v1.1.4d
+	- mtr 1.1.0
+	- nemos_enchantments 1.21.11-1.7.3
+	- nemos_inventory_sorting 1.21.11-1.14.8
+	- notenoughanimations 1.11.2
+	   |-- transition 1.0.12
+	   \-- trender 1.0.10
+	- prickle 21.11.1
+	- puffish_attributes 0.8.2
+	- puzzleslib 21.11.6
+	- refurbished_furniture 1.0.22
+	- rightclickharvest 4.6.1+1.21.11
+	- sereneseasons 21.11.0.1
+	   \-- net_jodah_typetools 0.6.3
+	- serversidehorror 4.1
+	- shulkerboxtooltip 5.2.15+1.21.11
+	- spawnanimations 1.11.3+mod
+	- storagedrawers 20.0.0
+	- subtle_effects 1.13.2
+	- supermartijn642configlib 1.1.8
+	- supermartijn642corelib 1.1.20
+	- terrablender 21.11.0.0
+	- terrainslabs 2.2.5
+	- trade_cycling 1.21.11-1.0.20
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f53
+	   \-- fabric-screen-api-v1 3.1.7+4ebb5c0853
+	- trashslot 21.11.4
+	- travelersbackpack 10.11.5
+	- undeadnights 2.1.3-Fabric-mc1.21.11
+	- villagerconfig 4.5.2
+	   \-- fiber 0.23.0-2
+	- waystones 21.11.4
+	- weaponmaster_ydm 4.4.3
+	- yet_another_config_lib_v3 3.8.2+1.21.11-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[17:54:24] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:54:24] [main/INFO]: Compatibility level set to JAVA_21
+[17:54:25] [main/WARN]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'balm.refmap.json' for balm.api.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'balm.refmap.json' for balm.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'carryon.refmap.json' for carryon.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'clumps.refmap.json' for clumps.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'comforts.refmap.json' for comforts.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'connectedglass.mixins.refmap.json' for connectedglass.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'deimos.refmap.json' for deimos.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'deimos.refmap.json' for deimos.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'do_a_barrel_roll.refmap.json' for do_a_barrel_roll.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'do_a_barrel_roll.refmap.json' for do_a_barrel_roll.compat.modmenu.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'durabilitytooltip.mixins.refmap.json' for durabilitytooltip.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'easy_npc.refmap.json' for easy_npc.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'framework.refmap.json' for framework.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'framework.refmap.json' for framework.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'fusion.mixins.refmap.json' for fusion.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'goblintraders.refmap.json' for goblintraders.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'goblintraders.refmap.json' for goblintraders.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'nemos_enchantments.refmap.json' for nemos_enchantments.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'nemos_enchantments.refmap.json' for nemos_enchantments.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'nemos_inventory_sorting.refmap.json' for nemos_inventory_sorting.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'nemos_inventory_sorting.refmap.json' for nemos_inventory_sorting.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'refurbished_furniture.refmap.json' for refurbished_furniture.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'refurbished_furniture.refmap.json' for refurbished_furniture.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'sereneseasons.refmap.json' for sereneseasons.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'sereneseasons.refmap.json' for sereneseasons.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'serversidehorror.refmap.json' for serversidehorror.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'serversidehorror.refmap.json' for serversidehorror.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'subtle_effects.refmap.json' for subtle_effects.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'subtle_effects.refmap.json' for subtle_effects.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'supermartijn642corelib.mixins.refmap.json' for supermartijn642corelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'TerraBlender-fabric-refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'villagerconfig.refmap.json' for villagerconfig-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'villagerconfig.refmap.json' for villagerconfig-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'waystones.refmap.json' for waystones.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:25] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:54:26] [main/WARN]: Error loading class: net/minecraft/class_9934 (java.lang.ClassNotFoundException: net/minecraft/class_9934)
+[17:54:26] [main/WARN]: @Mixin target net.minecraft.class_9934 was not found farmersdelight.mixins.json:refabricated.GhostSlotsInvoker from mod farmersdelight
+[17:54:26] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[17:54:33] [main/INFO]: Initializing platform helper for Advanced Netherite!
+[17:54:33] [main/INFO]: Loading Collective version 8.13.
+[17:54:33] [main/INFO]: Initialized entity types.
+[17:54:33] [main/INFO]: Register Custom Payloads for Networking.
+[17:54:33] [main/INFO]: Initializing Easy NPC (Fabric) ...
+[17:54:33] [main/INFO]: 🗣 Register Easy NPC: Core Debug Manager ...
+[17:54:33] [main/INFO]: 🗣 Register Easy NPC: Core Constants ...
+[17:54:33] [main/INFO]: 🗣 Register Easy NPC: Core Configuration ...
+[17:54:33] [main/INFO]: [Config] Updated configuration path to ./config/easy_npc
+[17:54:33] [main/INFO]: [Config] Registering common configuration ...
+[17:54:33] [main/INFO]: [Config] NPC Base Configuration
+
+allowBypassInvulnerability: Allows damage types like /kill command or void to bypass NPC invulnerability (default: true)
+
+ is up to date: {allowBypassInvulnerability=true}
+[17:54:34] [main/INFO]: Initialized 740 supported and 325 unsupported entity types from defaults.
+[17:54:34] [main/INFO]: [Config] Render Entity Type Support Configuration
+
+ Please note that this configuration file only includes confirmed entity types.
+ If an entity type is not listed here, it doesn't mean it's automatically supported or unsupported!
+ is up to date: {simple_mobs:whisperer_stem_2=true, immersive_weathering:falling_layer=false, irons_spellbooks:frozen_humanoid=false, alexsmobs:snow_leopard=true, kobolds:kobold_pirate=true, orcz:orcsavageweird=true, hunterillager:boomerang=false, irons_spellbooks:archevoker=true, simple_mobs:rumble=false, simple_mobs:notch_punch=true, bloodandmadness:call_beyond=false, bloodandmadness:church_doctor_lantern=true, irons_spellbooks:catacombs_zombie=true, simple_mobs:sword_auto_2=true, simple_mobs:morgott=true, savage_and_ravage:trickster=true, simple_mobs:staff_usage=false, alexsmobs:endergrade=true, minecraft:horse=true, simple_mobs:elemental_shield=true, alexsmobs:sand_shot=false, blue_skies:venom_spider=true, simple_mobs:losteyeproj=true, simple_mobs:laser_2=true, goblinsanddungeons:garch=true, simple_mobs:rat_small=true, minecraft:llama=true, biomemakeover:lightning_bottle=false, quark:soul_bead=false, restored_earth:rainbow_sheep=true, cataclysm:ender_guardian=true, kobolds:kobold_skeleton=true, minecraft:enderman=true, bygonenether:piglin_hunter=true, illageandspillage:imp=false, biomemakeover:scuttler=true, aquamirae:maw=true, infernalexp:throwable_brick=false, minecraft:shulker_bullet=false, bygonenether:wex=true, biomemakeover:moth=true, untamedwilds:aardvark=true, cataclysm:cm_falling_block=false, alexsmobs:hammerhead_shark=true, simple_mobs:u_gone=true, biomemakeover:blightbat=false, alexsmobs:grizzly_bear=true, untamedwilds:boar=true, simple_mobs:ice_dragon_breath=true, blue_skies:firefly=true, infernalexp:throwable_nether_brick=false, twigs:pebble=false, moretotems:summoned_zombie=false, simple_mobs:dragon_lord=true, bygonenether:warped_enderman=true, simple_mobs:herobrine=true, simple_mobs:goblo=true, bloodandmadness:augur_of_ebrietas=false, simple_mobs:skeletonlord=true, irons_spellbooks:fireball=false, majruszsdifficulty:cerberus=true, simple_mobs:twins_stone=true, goblintraders:vein_goblin_trader=true, restored_earth:melon_golem=true, untamedwilds:opossum=true, simple_mobs:elemental_deity=true, netherskeletons:crimson_skeleton=true, goblinsanddungeons:gob=true, kobolds:kobold_enchanter=true, quark:pickarang=false, minecraft:mooshroom=true, cloudstorage:balloon_cargo=false, simple_mobs:corrupted_ogre=true, cataclysm:ashen_breath=false, minecraft:villager=true, simple_mobs:sphere=true, smallships:cog=false, simple_mobs:elemental_grab=true, dannys_expansion:monstrous_scorpion=true, orcz:orcsavagemace=true, lilwings:grayling_butterfly=true, ba_bt:nether_obelisk=false, bloodandmadness:church_doctor_flamesprayer=true, blue_skies:snow_owl=true, minecraft:axolotl=true, botania:doppleganger=false, biomemakeover:lightning_bug=true, dannys_expansion:squig_bubble=false, irons_spellbooks:summoned_vex=true, minecraft:tnt=false, supplementaries:pearl_marker=false, alexsmobs:gorilla=true, ob_core:ancient_paladin=true, simple_mobs:grabbed=true, ba_bt:end_monolith=false, botania:magic_missile=false, blue_skies:boss_item=false, simple_mobs:cultist=true, create:contraption=false, progressivebosses:larva=true, quark:crab=true, simple_mobs:cave_golem=true, minecraft:arrow=false, lootr:lootr_minecart=false, kobolds:kobold_warrior=true, untamedwilds:shark=true, minecraft:chest_minecart=false, alexsmobs:cosmic_cod=false, blue_skies:starlit_crusher=true, epicfight:forbidden_strength_orb=false, untamedwilds:giant_clam=true, blue_skies:venom_bomb=false, ba_bt:nether_monolith=false, simple_mobs:dragon_smoke=false, biomemakeover:decayed=true, epicfight:wither_skeleton_minion=true, alexsmobs:enderiophage_rocket=false, simple_mobs:korok_5_balloon=true, alexsmobs:kangaroo=true, blue_skies:polargeist=true, simple_mobs:darkwerewolf=true, sword_soaring:rain_cutter_sword=false, creeperoverhaul:spruce_creeper=true, ecologics:coconut_crab=true, bosses_of_mass_destruction:charged_ender_pearl=false, wom:antitheus_darkness=false, simple_mobs:gryphon=true, simple_mobs:shadow_clone=true, alexsmobs:hummingbird=true, mowziesmobs:rock_sling=false, mutantmonsters:mutant_zombie=true, blue_skies:stonelet=true, alexsmobs:cockroach_egg=false, biomemakeover:rootling=true, simple_mobs:martian=true, difficultraids:tank_illager=true, undead_revamp2:theordure=true, minecraft:armor_stand=false, alexsmobs:crow=true, friendsandfoes:mauler=true, mowziesmobs:dart=false, blue_skies:shrumpty=true, bloodandmadness:church_doctor_scythe=true, simple_mobs:sentinel_knight=true, blue_skies:decaying_spike=false, enlightened_end:stalker=true, alexsmobs:guster=true, botania:babylon_weapon=false, simple_mobs:whisperer_stem=true, ba_bt:platinum_skeleton=true, infernalexp:shroomloin=true, mutantmonsters:endersoul_fragment=false, restored_earth:muddy_pig=true, ad_astra:tier_3_rocket=false, the_bumblezone:cosmic_crystal_entity=false, supplementaries:falling_urn=false, irons_spellbooks:magehunter_vindicator=true, alexsmobs:giant_squid=true, minecraft:chicken=true, mowziesmobs:falling_block=false, minecraft:zombie=true, dawncraft:quest_player=false, bloodandmadness:cloaked_beast_patient=true, alexsmobs:emu=true, the_bumblezone:sentry_watcher=false, tinyskeletons:baby_stray=true, difficultraids:nuaos_elite=true, blue_skies:frost_spirit=false, alexsmobs:flutter=true, supplementaries:bomb=false, minecraft:hoglin=true, illageandspillage:spirit_hand=true, ecologics:camel=true, untamedwilds:spadefish=true, minecraft:trident=false, ba_bt:sky_obelisk=false, minecraft:zombified_piglin=true, illageandspillage:boss_randomizer=true, habitat:pooka=true, minecraft:sheep=true, mowziesmobs:boulder_platform=false, simple_mobs:omen_clone=true, alexsmobs:mosquito_spit=false, minecraft:ender_dragon=false, simple_mobs:manuel_poky=true, bloodandmadness:church_doctor=true, minecraft:item_frame=false, create:carriage_contraption=false, bloodandmadness:bullet=false, minecraft:vex=true, quark:foxhound=true, ba_bt:end_golem=true, majruszsdifficulty:giant=true, orcz:savageorciron=true, untamedwilds:manatee=true, difficultraids:frost_illager=true, simple_mobs:flame_ball_player=true, savage_and_ravage:ice_cloud=false, minecraft:minecart=false, untamedwilds:spit=false, minecraft:dragon_fireball=false, infernalexp:throwable_magma_cream=false, minecraft:skeleton=true, simple_mobs:fire_dragon=true, alexsmobs:raccoon=true, simple_mobs:staff_interact=false, simple_mobs:first_twin=true, simple_mobs:spiritnick=true, minecraft:ravager=true, alexsmobs:bone_serpent=true, darkersouls:wind_no_collision=false, simple_mobs:ogre=true, simple_mobs:ball=true, blue_skies:charscale_moki=true, simple_mobs:bright_elemental=true, simple_mobs:souls_summon_2=true, restored_earth:bone_spider=true, minecraft:shulker=true, friendsandfoes:ice_chunk=false, minecraft:hopper_minecart=false, mowziesmobs:pillar=false, dannys_expansion:hollowlet=true, restored_earth:skeleton_wolf=true, ba_bt:ocean_obelisk=false, irons_spellbooks:poison_splash=false, creeperoverhaul:beach_creeper=true, alexsmobs:crimson_mosquito=true, tinyskeletons:baby_skeleton=true, undead_revamp2:thebidy=true, simple_mobs:griffingrab=true, simple_mobs:multipartbody=true, undead_revamp2:the_moonflower=true, minecraft:tnt_minecart=false, bloodandmadness:father_gascoigne=true, dannys_expansion:klifour_spit=false, infernalexp:blackstone_dwarf=true, creeperoverhaul:hills_creeper=true, alexsmobs:jerboa=true, lilwings:red_applefly_butterfly=true, simple_mobs:gob=true, simple_mobs:shadow=true, lilwings:white_fox_butterfly=true, dannys_expansion:foamspring=true, habitat:boat=false, minecraft:furnace_minecart=false, alexsmobs:comb_jelly=true, minecraft:evoker_fangs=false, simple_mobs:herobrine_fear=true, quark:stool=false, dannys_expansion:squig=true, blue_skies:sliv=true, orcz:orcirongroupleader=true, cloudstorage:badloon=true, infernalexp:voline=true, creeperoverhaul:bamboo_creeper=true, simple_mobs:blackmarketvillager=true, orcz:wither_strikeringcustom=false, cloudstorage:bloviator=true, minecraft:blaze=true, undead_revamp2:thehorrors=true, bloodandmadness:church_doctor_pistol=true, infernalexp:glowsquito=true, cataclysm:wall_watcher=false, alexsmobs:enderiophage=true, minecraft:egg=false, alexsmobs:sunbird=true, frostiful:thrown_icicle=false, cataclysm:blazing_bone=false, ba_bt:end_obelisk=false, ad_astra:tier_1_rover=false, simple_mobs:lost_eye_ogre=true, majruszsdifficulty:cursed_armor=false, simple_mobs:sword_auto=true, dannys_expansion:test_dummy=false, netherskeletons:skelly_ghast=true, dannys_expansion:hollow_armor=true, minecraft:text_display=false, minecraft:cat=true, meetyourfight:bellringer=true, blue_skies:gatekeeper=true, minecraft:tropical_fish=true, simple_mobs:ninja=true, simple_mobs:fire_giant=true, bygonenether:wither_skeleton_horse=true, illageandspillage:soul_beam=false, simple_mobs:fire_dragon_grab=true, blue_skies:nested_spider=true, simple_mobs:shade=true, untamedwilds:snake=true, minecraft:zombie_villager=true, simple_mobs:ice_dragon_ambient=true, alexsmobs:froststalker=true, simple_mobs:guardian_eye=true, minecraft:giant=true, botania:pool_minecart=false, alexsmobs:lobster=true, alexsmobs:seagull=true, mowziesmobs:lantern=true, untamedwilds:hippo=true, minecraft:end_crystal=false, minecraft:experience_bottle=false, minecraft:glow_squid=true, simple_mobs:ent=true, goblinsanddungeons:goblo=true, aquamirae:tortured_soul=true, difficultraids:frost_snowball=false, mowziesmobs:pillar_piece=false, creeperoverhaul:cave_creeper=true, wildbackport:warden=true, blue_skies:artificial_golem=true, mowziesmobs:block_swapper_sculptor=false, quark:glass_frame=false, braincell:boat=false, restored_earth:tropical_slime=false, ba_bt:explosion_physics=false, ba_bt:nether_golem=true, minecraft:husk=true, monsterplus:mother_lava_squid=true, undead_revamp2:axestrom=true, bosses_of_mass_destruction:gauntlet=true, humancompanions:arbalist=true, netherskeletons:nether_skeleton=true, minecraft:cave_spider=true, simple_mobs:toxic_goop=true, simple_mobs:getsuga_65=true, simple_mobs:herobrine_spike_2=true, simple_mobs:herobrine_spike_1=true, mowziesmobs:umvuthana=true, simple_mobs:fireball=true, savage_and_ravage:skeleton_villager=true, simple_mobs:barbarian_3=true, simple_mobs:barbarian_4=true, simple_mobs:cloaked_villager=true, simple_mobs:projecttest=false, mowziesmobs:frozen_controller=false, cloudstorage:balloon_tie=false, alexsmobs:emu_egg=false, minecraft:donkey=true, simple_mobs:asharmor_ice=true, untamedwilds:newt=true, ba_bt:bt_cultist=true, minecraft:area_effect_cloud=false, mowziesmobs:umvuthana_crane_player=true, simple_mobs:gemspike=true, frostiful:packed_snowball=false, mutantmonsters:mutant_skeleton=true, untamedwilds:hyena=true, ba_bt:land_golem=true, minecraft:piglin_brute=true, friendsandfoes:copper_golem=true, aquamirae:golden_moth=true, monsterplus:spectral_skeleton=true, simple_mobs:barbarian_1=true, simple_mobs:raiddetectwitch=true, dannys_expansion:floam=true, simple_mobs:barbarian_2=true, kobolds:kobold_child=true, orcz:goblincammo=true, simple_mobs:solar_pixel=true, minecraft:player=false, alexsmobs:hemolymph=false, bosses_of_mass_destruction:void_blossom=true, infernalexp:warpbeetle=true, create:stationary_contraption=false, alexsmobs:frilled_shark=true, alexsmobs:ice_shard=false, alexsmobs:bald_eagle=true, netherskeletons:soul_skeleton=true, untamedwilds:baleen_whale=true, alexsmobs:blobfish=true, ecologics:squirrel=true, sword_soaring:sword=false, simple_mobs:sprout=true, ae2:tiny_tnt_primed=false, simple_mobs:shogunate_ghost=true, alexsmobs:void_worm=true, untamedwilds:tarantula=true, ba_bt:land_obelisk=false, minecraft:guardian=true, minecraft:parrot=true, aquamirae:spinefish=true, epicfight:dodge_left=false, monsterplus:overgrown_skeleton=true, untamedwilds:rhino=true, alexsmobs:centipede_head=true, create:super_glue=false, simple_mobs:goop_spit=true, handcrafted:seat=false, creeperoverhaul:desert_creeper=true, botania:thorn_chakram=false, minecraft:iron_golem=true, simple_mobs:josslyn_mc=true, botania:pixie=false, restored_earth:bouldering_zombie=true, simple_mobs:dragging_spell=true, mutantmonsters:mutant_creeper=true, savage_and_ravage:griefer=true, savage_and_ravage:iceologer=true, biomemakeover:tadpole=true, blue_skies:emberback=true, simple_mobs:hobgob=true, alexsmobs:bunfungus=true, orcz:orcshieldiron=true, graveyard:skull=false, monsterplus:lava_squid=true, simple_mobs:roar=true, biomemakeover:lightning_bug_alternate=true, minecraft:mule=true, the_bumblezone:thrown_stinger_spear=false, minecraft:vindicator=true, simple_mobs:spikes=true, alexsmobs:flying_fish=true, dannys_expansion:ghoul=true, majruszsdifficulty:tank=true, minecraft:slime=false, creeperoverhaul:mushroom_creeper=true, monsterplus:glow_skeleton=true, quark:forgotten=true, irons_spellbooks:spectral_hammer=false, swampier_swamps:swamp_gas=false, cataclysm:nameless_sorcerer=true, cataclysm:endermaptera=true, graveyard:ghouling=false, restored_earth:moolip=true, untamedwilds:spitter=true, irons_spellbooks:debug_wizard=true, humancompanions:archer=true, simple_mobs:air=true, orcz:squig=true, minecraft:firework_rocket=false, blue_skies:horizofin_tunid=true, irons_spellbooks:spectral_steed=true, netherskeletons:charred_skeleton=true, untamedwilds:sawfish=true, untamedwilds:large_snake=true, minecraft:spawner_minecart=false, simple_mobs:nine_tails=true, humancompanions:knight=true, undead_revamp2:thespitter=true, blueprint:boat=false, botania:spark=false, creeperoverhaul:badlands_creeper=true, creeperoverhaul:snowy_creeper=true, simple_mobs:notch_grab=true, simple_mobs:blackhole=true, aquamirae:luminous_jelly=true, alexsmobs:terrapin=true, simple_mobs:herobrinese_3=true, simple_mobs:herobrinese_2=true, ba_bt:core_monolith=false, simple_mobs:giant_skele=true, simple_mobs:wind=true, simple_mobs:lightning_dragon=true, minecraft:witch=true, piglinproliferation:piglin_alchemist=true, restored_earth:jolly_llama=true, ad_astra:tier_2_rocket=false, meetyourfight:dame_fortuna=true, minecraft:pig=true, alexsmobs:alligator_snapping_turtle=true, moretotems:summoned_bee=false, creeperoverhaul:swamp_creeper=true, bosses_of_mass_destruction:obsidilith=true, simple_mobs:gael_wraith_target=true, darkersouls:nameless_king_summons=false, simple_mobs:souls_summon=true, blue_skies:nyctofly=false, blue_skies:diophyde_prowler=true, dannys_expansion:desertic_slime=true, blue_skies:infested_swarmer=true, minecraft:item=false, minecraft:cod=true, undead_revamp2:theswarmer=true, humancompanions:axeguard=true, blue_skies:cosmic_fox=true, irons_spellbooks:fire_field=false, alexsmobs:platypus=true, minecraft:skeleton_horse=true, illageandspillage:magispeller=true, minecraft:cow=true, alexsmobs:rocky_roller=true, alexsmobs:soul_vulture=true, minecraft:potion=false, ba_bt:core_golem=true, cataclysm:ignis=true, bloodandmadness:huntsman_axe=true, minecraft:salmon=true, mowziesmobs:naga=true, goblinsanddungeons:falling_block=false, undead_revamp2:bomber=true, bloodandmadness:gascoigne_beast=true, alexsmobs:anteater=true, mowziesmobs:ferrous_wroughtnaut=true, simple_mobs:caped_minotaur=true, simple_mobs:claw_mark=true, simple_mobs:lightning_spear=false, blue_skies:crynocerous=true, minecraft:rabbit=true, blue_skies:strange_lightning=false, minecraft:pillager=true, the_bumblezone:electric_ring_entity=false, epicfight:dropped_nether_star=false, quark:skull_pike=false, ecologics:boat=false, minecraft:zoglin=true, savage_and_ravage:creepie=true, untamedwilds:terror_bird=true, simple_mobs:ensnared_soul=true, simple_mobs:sentinel_flash=true, minecraft:fishing_bobber=false, corpse:corpse=false, orcz:orcshield=true, alexsmobs:leafcutter_ant=true, undead_revamp2:thehorrorsdecoys=true, simple_mobs:notch_sit=true, kobolds:kobold_zombie=true, simple_mobs:ground_spike=false, simple_mobs:ppx=true, quest_giver:quest_guard_villager=true, simple_mobs:second_twin=true, aquamirae:captain_cornelia=true, simple_mobs:samurai_placeholder=true, the_bumblezone:dirt_pellet=false, creeperoverhaul:jungle_creeper=true, dannys_expansion:foamcaster=true, minecraft:fireball=false, simple_mobs:skeleton_demon=true, aquamirae:maze_rose=false, irons_spellbooks:cryomancer=true, illageandspillage:dispenser=true, monsterplus:crystal_clump=false, wildbackport:tadpole=true, ba_bt:ocean_destruction=false, minecraft:snowball=false, simple_mobs:herobrine_flash=true, undead_revamp2:thesmoker=true, simple_mobs:barrel_man=true, cataclysm:ignited_revenant=true, monsterplus:abyssologer=true, untamedwilds:bison=true, simple_mobs:elemental_chain=false, illageandspillage:spiritcaller=true, simple_mobs:lightning_dragon_ambient=true, sword_soaring:rain_screen_sword=false, techreborn:nuke=false, goblinsanddungeons:ogre=true, simple_mobs:merlin_1306=true, bloodandmadness:red_jewel=false, alexsmobs:gazelle=true, dawncraft:knight_player=true, dannys_expansion:arrow=false, simple_mobs:dragon_lightning_breath=true, untamedwilds:catfish=true, minecraft:small_fireball=false, ba_bt:ocean_monolith=false, biomemakeover:ghost=true, supplementaries:falling_ash=false, mowziesmobs:umvuthana_follower_player=true, biomemakeover:owl=true, difficultraids:warrior_illager=true, undead_revamp2:crackleball=true, monsterplus:bloody_slash=false, undead_revamp2:thehunter=true, alexsmobs:centipede_tail=false, dannys_expansion:mundane_slime=false, blue_skies:seed_bomb=false, botania:ender_air=false, dannys_expansion:goblin=true, lilwings:crystal_puff_butterfly=true, alexsmobs:seal=true, cloudstorage:balloon=false, alexsmobs:laviathan=true, alexsmobs:roadrunner=true, minecraft:trader_llama=true, simple_mobs:cave_blockhead=true, orcz:goblin_2sword=true, untamedwilds:monitor=true, orcz:decaystrikecustom=false, simple_mobs:spawn_protect=true, blue_skies:supporter_pet=true, irons_spellbooks:necromancer=true, goblintraders:goblin_trader=true, simple_mobs:goom=true, undead_revamp2:thepregnant=true, mutantmonsters:mutant_snow_golem=true, bosses_of_mass_destruction:soul_star=false, orcz:orcsavage_2sword=true, the_bumblezone:purple_spike_entity=false, alexsmobs:maned_wolf=true, mimic:mimic=true, aquamirae:poisoned_chakra=false, infernalexp:embody=true, mutantmonsters:creeper_minion_egg=false, minecraft:dolphin=true, frostiful:freezing_wind=false, simple_mobs:imp_guard=true, alexsmobs:gelada_monkey=true, friendsandfoes:iceologer=true, untamedwilds:triggerfish=true, infernalexp:blindsight=true, immersive_weathering:falling_icicle=false, blue_skies:azulfo=true, alexsmobs:dropbear=true, blue_skies:reindeer=true, alexsmobs:tiger=true, monsterplus:crystal_zombie=true, undead_revamp2:slaveman=true, blue_skies:ent_root=false, handcrafted:fancy_painting=false, friendsandfoes:moobloom=true, minecraft:creeper=true, simple_mobs:wither_ray=true, minecraft:bee=true, alexsmobs:devils_hole_pupfish=true, biomemakeover:toad=true, habitat:kabloom_fruit=false, dannys_expansion:ice_spike=false, orcz:goblinsavagemace=true, minecraft:illusioner=true, netherskeletons:warped_skeleton=true, guardvillagers:guard=true, difficultraids:xydrax_elite=true, restored_earth:cluckshroom=true, undead_revamp2:thebeartamer=true, simple_mobs:knight=true, irons_spellbooks:poison_breath=false, simple_mobs:ghostprojectile=true, alexsmobs:bison=true, simple_mobs:herobrine_follower=true, botania:magic_landmine=false, mowziesmobs:foliaath=true, mowziesmobs:frostmaw=true, minecraft:drowned=true, friendsandfoes:glare=true, quark:totem=false, bloodandmadness:blossomed_eye=false, ba_bt:land_destruction=false, botania:ender_air_bottle=false, simple_mobs:korok_1=true, simple_mobs:korok_2=true, simple_mobs:korok_3=true, simple_mobs:korok_4=true, simple_mobs:korok_5=true, supplementaries:falling_sack=false, untamedwilds:football_fish=true, alexsmobs:void_portal=false, kobolds:kobold_captain=true, create:crafting_blueprint=false, simple_mobs:dragon_lord_stone=true, alexsmobs:tusklin=true, infernalexp:glowsilk_moth=false, minecraft:strider=true, smallships:brigg=false, orcz:orcsavagegroupleader=true, simple_mobs:tiny_necromancer=true, the_bumblezone:pollen_puff=false, bloodandmadness:binding_spell=false, minecraft:wither=true, simple_mobs:minotaur=true, undead_revamp2:thespectre=true, wom:enderblast=false, simple_mobs:shielded_skeleton=true, goblinsanddungeons:goom=true, minecraft:wandering_trader=true, biomemakeover:mushroom_trader=true, simple_mobs:damaginglaser=true, minecraft:wither_skeleton=true, simple_mobs:protector=true, blue_skies:grittle_flatfish=true, difficultraids:voldon_elite=true, conjurer_illager:conjurer=true, bosses_of_mass_destruction:comet=false, simple_mobs:imp_bomb=true, irons_spellbooks:shield=false, biomemakeover:adjudicator_mimic=true, cataclysm:netherite_monstrosity=true, minecraft:elder_guardian=true, undead_revamp2:therod=true, untamedwilds:king_crab=true, monsterplus:opalescent_eye=false, simple_mobs:woodenday=true, simple_mobs:shield_element=true, illageandspillage:illager_soul=true, untamedwilds:big_cat=true, simple_mobs:vampire=true, the_bumblezone:bee_stinger=false, blue_skies:spewter=true, mowziesmobs:umvuthana_raptor=true, majruszsdifficulty:creeperling=true, simple_mobs:notch_boss=true, lilwings:butter_gold_butterfly=true, netherskeletons:crying_obby_skeleton=true, botania:mana_burst=false, bloodandmadness:church_doctor_crucifix=true, quark:gravisand=false, kobolds:kobold_rascal=true, minecraft:pufferfish=true, terraform:boat=false, minecraft:experience_orb=false, minecraft:fox=true, botania:thrown_item=false, untamedwilds:trevally=true, untamedwilds:whale_shark=true, orcz:savageorc=true, dannys_expansion:magma_slime=true, mowziesmobs:umvuthana_crane=true, ba_bt:sky_golem=true, restored_earth:fancy_chicken=true, bygonenether:warped_ender_pearl=false, alexsmobs:warped_toad=true, minecraft:silverfish=true, tinyskeletons:baby_wither_skeleton=true, simple_mobs:dark_elemental=true, dannys_expansion:klifour=true, blue_skies:seclam=true, alexsmobs:cockroach=true, dannys_expansion:ice_elemental=true, creeperoverhaul:savannah_creeper=true, irons_spellbooks:acid_orb=false, netherskeletons:basalt_skeleton=true, blue_skies:venom_spit=false, orcz:goblinshield=true, savage_and_ravage:spore_cloud=false, restored_earth:furnace_golem=true, hunterillager:hunterillager=true, botania:falling_star=false, blue_skies:municipal_monkfish=true, bloodandmadness:brainsucker=true, minecraft:boat=false, restored_earth:moobloom=true, alexsmobs:capuchin_monkey=true, alexsmobs:squid_grapple=false, blue_skies:shade_monitor=true, orcz:savagegoblin=true, alexsmobs:cachalot_echo=false, savage_and_ravage:burning_banner=false, friendsandfoes:player_illusion=false, minecraft:polar_bear=true, illageandspillage:mob_spirit=true, minecraft:phantom=false, ad_astra:tier_4_rocket=false, minecraft:turtle=true, blue_skies:ent_leaf=false, cataclysm:charge_watcher=false, quark:wraith=true, simple_mobs:monika_sunrise=true, lilwings:shroom_skipper_butterfly=true, alexsmobs:rattlesnake=true, goblinsanddungeons:hobgob=true, hexerei:broom=false, quest_giver:quest_villager=true, simple_mobs:moon_slash_2=true, ad_astra:space_painting=false, simple_mobs:fire_dragon_ambient=true, cloudstorage:balloon_buddy=true, simple_mobs:moon_slash_1=true, create:seat=false, difficultraids:electro_illager=true, lilwings:swamp_hopper_butterfly=true, minecraft:squid=true, restored_earth:lobber_zombie=true, infernalexp:ascus_bomb=false, dragonmounts:dragon_egg=false, alexsmobs:fly=true, ad_astra:lander=false, irons_spellbooks:dead_king=true, quark:shiba=true, simple_mobs:asharmor_fire=true, simple_mobs:tree_drain_particles=true, alexsmobs:straddler=true, blue_skies:arachnarch=true, alexsmobs:sea_bear=true, wildbackport:frog=true, alexsmobs:tossed_item=false, monsterplus:crystal_spikes=false, simple_mobs:lorde_rk=true, undead_revamp2:thewolf=true, ba_bt:land_monolith=false, mowziesmobs:umvuthana_follower_raptor=true, cataclysm:ender_golem=true, savage_and_ravage:ice_chunk=false, ba_bt:core_obelisk=false, supplementaries:red_merchant=true, undead_revamp2:thebidyupside=true, irons_spellbooks:healing_aoe=false, biomemakeover:adjudicator=true, minecraft:painting=false, orcz:goblinwerid=true, biomemakeover:cowboy=true, simple_mobs:imp_melee=true, frostiful:frost_spell=false, dummmmmmy:dummy_number=false, aquamirae:eel=true, savage_and_ravage:executioner=true, alexsmobs:orca=true, illageandspillage:faker=true, irons_spellbooks:dead_king_corpse=true, illageandspillage:twittollager=true, blue_skies:summoner=true, minecraft:bat=false, biomemakeover:stone_golem=true, alexsmobs:cosmaw=true, mowziesmobs:solar_beam=false, untamedwilds:wildebeest=true, bygonenether:corpor=true, dragonmounts:dragon=true, biomemakeover:tumbleweed=false, difficultraids:shaman_illager=true, bloodandmadness:celestial_emissary=true, simple_mobs:ibr_17eem_171=true, blue_skies:alchemist=true, simple_mobs:patronwerewolf=true, ad_astra:ice_spit=false, lilwings:swallow_tail_butterfly=true, bloodandmadness:ashen_blood_beast_patient=true, simple_mobs:gael_wraith=true, untamedwilds:bear=true, quark:parrot_egg=false, aquamirae:anglerfish=true, tumbleweed:tumbleweed=false, biomemakeover:dragonfly=true, minecraft:magma_cube=false, cataclysm:lava_bomb=false, minecraft:spider=true, alexsmobs:tasmanian_devil=true, blue_skies:stardust_ram=true, monsterplus:spike_countdown=false, alexsmobs:stradpole=true, mowziesmobs:super_nova=false, ecologics:penguin=true, sophisticatedbackpacks:everlasting_backpack_item=false, mowziesmobs:ice_breath=false, simple_mobs:wither_demon=true, bloodandmadness:flame=false, minecraft:panda=true, dawncraft:fallen=false, kobolds:kobold_engineer=true, lilwings:gold_applefly_butterfly=true, simple_mobs:imp_range=true, simple_mobs:monk=true, alexsmobs:moose=true, restored_earth:viler_witch=true, infernalexp:throwable_fire_charge=false, illageandspillage:igniter=true, alexsmobs:shoebill=true, blue_skies:spear=false, difficultraids:modur_elite=true, savage_and_ravage:rune_prison=false, alexsmobs:warped_mosco=true, difficultraids:dart_illager=true, alexsmobs:gust=false, orcz:decaystrike=true, irons_spellbooks:wall_of_fire=false, simple_mobs:bone=true, blue_skies:jelly_drifter=true, cataclysm:void_rune=false, irons_spellbooks:black_hole=false, orcz:witherstrikering=true, alexsmobs:komodo_dragon=true, irons_spellbooks:void_tentacle=false, savage_and_ravage:spore_bomb=false, aquamirae:maze_mother=true, minecraft:ghast=false, blue_skies:whistleshell_crab=true, dannys_expansion:cursed_skull=true, quark:stoneling=true, ob_core:hilda=true, minecraft:glow_item_frame=false, orcz:orcsavagemaceiron=true, simple_mobs:liver_cirrhosis=true, irons_spellbooks:summoned_polar_bear=true, simple_mobs:elemental_spawn=true, alexsmobs:straddleboard=false, simple_mobs:gael=true, simple_mobs:herobrinese=true, botania:mana_storm=false, alexsmobs:crocodile=true, quark:toretoise=true, simple_mobs:yes_im_david=true, simple_mobs:sentinel_slash=true, brutalbosses:thrownitem=false, simple_mobs:ice_dragon=true, bloodandmadness:beast_patient=true, quark:frog=true, minecraft:wither_skull=false, difficultraids:necromancer_illager=true, smallships:galley=false, minecraft:eye_of_ender=false, cataclysm:screen_shake=false, ad_astra:tier_1_rocket=false, minecraft:stray=true, minecraft:falling_block=false, orcz:spectre_squig=true, untamedwilds:sunfish=true, untamedwilds:tortoise=true, mutantmonsters:throwable_block=false, goblinsanddungeons:gobber=true, botania:flame_ring=false, cataclysm:void_shard=false, lilwings:aponi_butterfly=true, alexsmobs:mimicube=true, ba_bt:ocean_golem=true, undead_revamp2:sucker=true, simple_mobs:shadow_mew_yt=true, supplementaries:falling_lantern=false, bloodandmadness:silverbeast=true, supplementaries:dispenser_minecart=false, bygonenether:wither_skeleton_knight=true, simple_mobs:giant=true, simple_mobs:whisperer=true, goblinsanddungeons:mimic=true, irons_spellbooks:root=false, goblinsanddungeons:goblin_king=true, meetyourfight:swampjaw=false, simple_mobs:korok_intro=false, orcz:orcsavage_2swordiron=true, minecraft:ender_pearl=false, illageandspillage:crashager=true, untamedwilds:giant_salamander=true, infernalexp:basalt_giant=true, wildbackport:allay=true, dummmmmmy:target_dummy=false, alexsmobs:mimic_octopus=true, simple_mobs:rod_particles=true, irons_spellbooks:wisp=true, difficultraids:voldon_familiar=true, orcz:goblinsavagebomb=true, aquamirae:pillagers_patrol=false, cloudstorage:badloon_hand=false, simple_mobs:moss_golem=true, minecraft:evoker=true, alexsmobs:centipede_body=false, bloodandmadness:skeletal_puppet=true, hexerei:crow=true, minecraft:leash_knot=false, untamedwilds:butterfly=true, alexsmobs:tarantula_hawk=true, simple_mobs:gobber=true, simple_mobs:rat_mid=true, alexsmobs:cachalot_whale=true, botania:player_mover=false, simple_mobs:half_wither_demon=true, minecraft:endermite=true, simple_mobs:cave_dweller=true, untamedwilds:arowana=true, orcz:bigorcboss=true, creeperoverhaul:dark_oak_creeper=true, bosses_of_mass_destruction:petal_blade=false, simple_mobs:knight_4=true, simple_mobs:blood_splash_1=true, simple_mobs:blood_splash_2=true, simple_mobs:knight_2=true, simple_mobs:knight_3=true, quark:chest_passenger=false, savage_and_ravage:confusion_bolt=false, conjurer_illager:throwing_card=false, bloodandmadness:micolash=true, mowziesmobs:block_swapper=false, bosses_of_mass_destruction:lich=true, alexsmobs:anaconda=true, irons_spellbooks:summoned_zombie=true, ba_bt:sky_monolith=false, simple_mobs:multipartbody_2=true, blue_skies:fluctuant_sphere=false, cataclysm:flame_strike=false, mowziesmobs:grottol=true, simple_mobs:jungharam=true, blue_skies:crogre=true, simple_mobs:defeating_cube=true, kobolds:kobold=true, mowziesmobs:sunstrike=false, mowziesmobs:baby_foliaath=true, simple_mobs:fasttravelcircle=true, simple_mobs:summon_drag=true, bloodandmadness:call_beyond_aim_helper=false, minecraft:goat=true, mutantmonsters:mutant_enderman=true, blue_skies:ent_wall=false, illageandspillage:illashooter=true, untamedwilds:softshell_turtle=true, alexsmobs:mantis_shrimp=true, irons_spellbooks:blood_needle=false, simple_mobs:fire_drag_proj=true, ba_bt:sky_minion=true, bygonenether:wraither=true, mutantmonsters:spider_pig=true, dawncraft:ritual_item=false, alexsmobs:vine_lasso=false, enlightened_end:big_ringling=true, mowziesmobs:umvuthi=true, restored_earth:jumbo_rabbit=true, meetyourfight:swamp_mine=false, alexsmobs:toucan=true, bygonenether:piglin_prisoner=true, lilwings:painted_panther_butterfly=true, irons_spellbooks:comet=false, simple_mobs:samurai_5=true, irons_spellbooks:poison_cloud=false, untamedwilds:camel=true, habitat:passerine=true, simple_mobs:tracking_thunder=true, minecraft:snow_golem=true, restored_earth:wooly_cow=true, biomemakeover:glowfish=true, the_bumblezone:honey_crystal_shard=false, apexcore:seat=false, monsterplus:swamp_zombie=true, irons_spellbooks:pyromancer=true, sword_soaring:stellar_sword=false, dannys_expansion:foamie=true, minecraft:lightning_bolt=false, undead_revamp2:invisiblebidy=true, simple_mobs:sand_wyrm=true, simple_mobs:samurai_4=true, simple_mobs:samurai_1=true, simple_mobs:samurai_2=true, creeperoverhaul:dripstone_creeper=true, difficultraids:assassin_illager=true, irons_spellbooks:summoned_skeleton=true, restored_earth:melon_seed=false, minecraft:command_block_minecart=false, alexsmobs:mungus=true, mowziesmobs:camera_shake=false, alexsmobs:spectre=true, irons_spellbooks:citadel_keeper=true, dannys_expansion:bullet=false, blue_skies:armored_frost_spirit=true, simple_mobs:graywerewolf=true, alexsmobs:catfish=true, minecraft:llama_spit=false, lilwings:cloudy_puff_butterfly=true, mutantmonsters:creeper_minion=true, mutantmonsters:endersoul_clone=true, orcz:weirdboinecro=true, minecraft:piglin=true, simple_mobs:cube=true, irons_spellbooks:target_area=false, alexsmobs:skelewag=true, restored_earth:rotten_flesh=false, minecraft:spectral_arrow=false, epicfight:wither_ghost=false, revamped_phantoms:shockwave=false, alexsmobs:elephant=true, undead_revamp2:flame=true, alexsmobs:void_worm_shot=false, infernalexp:infernal_painting=false, darkersouls:nameless_king=true, minecraft:zombie_horse=true, bloodandmadness:huntsman_cutlass=true, irons_spellbooks:dragon_breath_pool=false, simple_mobs:tail_dart=true, minecraft:marker=false, farmersdelight:rotten_tomato=false, simple_mobs:dragon_flame=true, armourers_workshop:mannequin=false, create:gantry_contraption=false, blue_skies:crystal_camel=true, progressivebosses:wither_minion=true, botania:corporea_spark=false, mutantmonsters:skull_spirit=false, minecraft:ocelot=true, simple_mobs:weak_ogre=true, minecraft:wolf=true, ob_core:obsidian_shard=true, infernal:flaming_poop=false}
+[17:54:34] [main/INFO]: After config parsing: 740 supported and 325 unsupported entity types.
+[17:54:34] [main/INFO]: [Config] Spawner Type Configuration
+
+
+ is up to date: {GroupSpawner:MinSpawnDelay=3000, SingleSpawner:MinSpawnDelay=3000, DefaultSpawner:SpawnCount=2, DefaultSpawner:MinSpawnDelay=400, BossSpawner:RequiredPlayerRange=32, GroupSpawner:SpawnCount=3, SingleSpawner:SpawnCount=1, BossSpawner:MaxNearbyEntities=1, SingleSpawner:SpawnRange=4, GroupSpawner:SpawnRange=6, SingleSpawner:RequiredPlayerRange=8, GroupSpawner:Delay=600, BossSpawner:Delay=600, DefaultSpawner:RequiredPlayerRange=16, DefaultSpawner:Delay=600, BossSpawner:MaxSpawnDelay=18000, GroupSpawner:RequiredPlayerRange=12, BossSpawner:SpawnRange=16, DefaultSpawner:MaxSpawnDelay=1200, DefaultSpawner:MaxNearbyEntities=4, SingleSpawner:MaxSpawnDelay=9000, BossSpawner:SpawnCount=1, SingleSpawner:Delay=600, GroupSpawner:MaxSpawnDelay=12000, SingleSpawner:MaxNearbyEntities=1, DefaultSpawner:SpawnRange=8, GroupSpawner:MaxNearbyEntities=6, BossSpawner:MinSpawnDelay=6000}
+[17:54:34] [main/INFO]: [Config] Registering server configuration ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Common Data Files ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Common data folders ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Entity Data Serializers ...
+[17:54:34] [main/INFO]: Registered entity data serializer ActionEventSet with id easy_npc:actioneventset using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer class_2487 with id easy_npc:class_2487 using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer DialogDataSet with id easy_npc:dialogdataset using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer DisplayAttributeDataSet with id easy_npc:displayattributedataset using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer EntityAttributes with id easy_npc:entityattributes using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer class_1916 with id easy_npc:class_1916 using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer ModelPose with id easy_npc:modelpose using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer ModelAnimationData with id easy_npc:modelanimationdata using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer ObjectiveDataSet with id easy_npc:objectivedataset using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer CustomPosition with id easy_npc:customposition using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer Profession with id easy_npc:profession using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer RenderDataEntry with id easy_npc:renderdataentry using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer CustomScale with id easy_npc:customscale using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer SkinDataEntry with id easy_npc:skindataentry using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer SkinType with id easy_npc:skintype using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer SkinUUID with id easy_npc:skinuuid using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer SoundDataSet with id easy_npc:sounddataset using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer TargetedEntitySet with id easy_npc:targetedentityset using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer TargetedPlayerSet with id easy_npc:targetedplayerset using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer TradingDataSet with id easy_npc:tradingdataset using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer TradingType with id easy_npc:tradingtype using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer UUID with id easy_npc:uuid using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer ModelVisibilityDataCapable with id easy_npc:modelvisibilitydatacapable using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer ModelRotationDataCapable with id easy_npc:modelrotationdatacapable using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer ModelPositionDataCapable with id easy_npc:modelpositiondatacapable using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: Registered entity data serializer ModelScaleDataCapable with id easy_npc:modelscaledatacapable using FabricTrackedDataRegistry
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Compatibility Handler ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Compat Handler ...
+[17:54:34] [main/INFO]: [Compat Manager] Epic Fight mod with id 'epicfight' loaded: false
+[17:54:34] [main/INFO]: [Compat Manager] Cobblemon mod with id 'cobblemon' loaded: false
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Entity Types ...
+[17:54:34] [Cicada thread 0/INFO]: [cicada] Meow
+[17:54:34] [Cicada thread 0/INFO]: [do_a_barrel_roll] Mrrp!
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:allay_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:bogged_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:cat_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:chicken_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:creeper_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:drowned_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:fox_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:horse_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:illusioner_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:iron_golem_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:enderman_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:piglin_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:piglin_brute_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:zombified_piglin_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:evoker_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:pig_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:pillager_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:skeleton_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:stray_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:wither_skeleton_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:spider_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:vex_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:villager_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:vindicator_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:witch_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:wolf_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:zombie_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:husk_raw]
+[17:54:34] [main/INFO]: Registering raw entity type ResourceKey[minecraft:entity_type / easy_npc:zombie_villager_raw]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:allay]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:bogged]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:cat]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:chicken]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:creeper]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:drowned]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:enderman]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:evoker]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:fox]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:horse]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:horse_skeleton]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:horse_zombie]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:humanoid]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:humanoid_slim]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:illusioner]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:iron_golem]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:piglin]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:piglin_brute]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:zombified_piglin]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:pig]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:pillager]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:skeleton]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:stray]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:wither_skeleton]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:spider]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:cave_spider]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:villager]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:vex]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:vindicator]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:witch]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:wolf]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:zombie]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:husk]
+[17:54:34] [main/INFO]: Registering NPC entity type ResourceKey[minecraft:entity_type / easy_npc:zombie_villager]
+[17:54:34] [main/INFO]: Registering custom entity type ResourceKey[minecraft:entity_type / easy_npc:doppler]
+[17:54:34] [main/INFO]: Registering custom entity type ResourceKey[minecraft:entity_type / easy_npc:fairy]
+[17:54:34] [main/INFO]: Registering custom entity type ResourceKey[minecraft:entity_type / easy_npc:orc]
+[17:54:34] [main/INFO]: Registering custom entity type ResourceKey[minecraft:entity_type / easy_npc:orc_warrior]
+[17:54:34] [main/INFO]: Initializing user-defined NPC registry...
+[17:54:34] [main/INFO]: Loaded 2 user-defined NPC configurations
+[17:54:34] [main/INFO]: Successfully registered 2 out of 2 user-defined NPCs
+[17:54:34] [main/INFO]: Registering user-defined entity type ResourceKey[minecraft:entity_type / easy_npc_custom:example_villager]
+[17:54:34] [main/INFO]: Registering user-defined entity type ResourceKey[minecraft:entity_type / easy_npc_custom:example_zombie]
+[17:54:34] [main/INFO]: Used vanilla attributes for user-defined entity example_villager with base type entity.minecraft.villager
+[17:54:34] [main/INFO]: Used vanilla attributes for user-defined entity example_zombie with base type entity.minecraft.zombie
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Blocks ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Blocks Entities ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Items ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Configuration Items ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Test Items ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Block Items ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Weapon Items ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Spawn Egg Items ...
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.allay with id allay.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.bogged with id bogged.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.cat with id cat.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.chicken with id chicken.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.creeper with id creeper.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.drowned with id drowned.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.enderman with id enderman.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.evoker with id evoker.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.fox with id fox.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.horse with id horse.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.horse_skeleton with id horse_skeleton.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.horse_zombie with id horse_zombie.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.humanoid with id humanoid.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.humanoid_slim with id humanoid_slim.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.illusioner with id illusioner.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.iron_golem with id iron_golem.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.piglin with id piglin.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.piglin_brute with id piglin_brute.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.zombified_piglin with id zombified_piglin.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.pig with id pig.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.pillager with id pillager.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.skeleton with id skeleton.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.stray with id stray.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.wither_skeleton with id wither_skeleton.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.spider with id spider.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.cave_spider with id cave_spider.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.villager with id villager.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.vex with id vex.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.vindicator with id vindicator.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.witch with id witch.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.wolf with id wolf.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.zombie with id zombie.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.husk with id husk.
+[17:54:34] [main/INFO]: Registering NPC spawn egg for entity.easy_npc.zombie_villager with id zombie_villager.
+[17:54:34] [main/INFO]: Registering custom spawn egg for entity.easy_npc.doppler with id doppler.
+[17:54:34] [main/INFO]: Registering custom spawn egg for entity.easy_npc.fairy with id fairy.
+[17:54:34] [main/INFO]: Registering custom spawn egg for entity.easy_npc.orc with id orc.
+[17:54:34] [main/INFO]: Registering custom spawn egg for entity.easy_npc.orc_warrior with id orc_warrior.
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Command register event ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Server Events ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Registering Server Entity Events ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Menu Handler ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Menu Types ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Menu Types ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Mod Data Components ...
+[17:54:34] [main/INFO]: Easy NPC Data Components ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Network Handler ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core NetworkHandler ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Network Handler ...
+[17:54:34] [main/INFO]: Registering network messages for SERVER side ...
+[17:54:34] [main/INFO]: Registering client network handler ...
+[17:54:34] [main/INFO]: Registering client payload type class_9154[id=easy_npc:open_menu_callback_message] with net.minecraft.class_9139$1@4593e30
+[17:54:34] [main/INFO]: Registering client payload type class_9154[id=easy_npc:sync_data] with net.minecraft.class_9139$1@1f42743d
+[17:54:34] [main/INFO]: Registering server network handler ...
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc:trigger_action_event] with net.minecraft.class_9139$1@61b69169
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ExecuteActionEventMessage with class_9154[id=easy_npc:trigger_action_event]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc:dialog_button_action] with net.minecraft.class_9139$1@57033983
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ExecuteDialogButtonActionMessage with class_9154[id=easy_npc:dialog_button_action]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc:open_menu_message] with net.minecraft.class_9139$1@45570b7
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message OpenMenuMessage with class_9154[id=easy_npc:open_menu_message]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc:request_data_sync] with net.minecraft.class_9139$1@438a5c25
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message RequestDataSyncMessage with class_9154[id=easy_npc:request_data_sync]
+[17:54:34] [main/INFO]: Registering server network handler for Server -> Client messages.
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Client Network Message Handler ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core Argument Types ...
+[17:54:34] [main/INFO]: Loading Easy NPC (Bundle) ...
+[17:54:34] [main/INFO]: This bundle includes Easy NPC Core and Easy NPC Config UI
+[17:54:34] [main/INFO]: Initializing Easy NPC: Config UI (Fabric) ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Config UI Debug Manager ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Config UI Constants ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Config UI Items ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Config UI Configuration Items ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Config UI Command register event ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Config UI Menu Types ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Config UI Menu Types ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Config UI Menu Handler ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Config UI Server Network Handler ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Core NetworkHandler ...
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Config UI Network Handler ...
+[17:54:34] [main/INFO]: Registering network messages for SERVER side ...
+[17:54:34] [main/INFO]: Registering client network handler ...
+[17:54:34] [main/INFO]: Registering client payload type class_9154[id=easy_npc_config_ui:preset_export_client] with net.minecraft.class_9139$1@7f13a29e
+[17:54:34] [main/INFO]: Registering client payload type class_9154[id=easy_npc_config_ui:open_menu_callback_message] with net.minecraft.class_9139$1@73faab6e
+[17:54:34] [main/INFO]: Registering client payload type class_9154[id=easy_npc_config_ui:sync_data] with net.minecraft.class_9139$1@23e61b93
+[17:54:34] [main/INFO]: Registering server network handler ...
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:add_objective] with net.minecraft.class_9139$1@23de49
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message AddOrUpdateObjectiveMessage with class_9154[id=easy_npc_config_ui:add_objective]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_action_event] with net.minecraft.class_9139$1@17b7d095
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeActionEventMessage with class_9154[id=easy_npc_config_ui:change_action_event]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_advanced_trading] with net.minecraft.class_9139$1@54a76ac9
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeAdvancedTradingMessage with class_9154[id=easy_npc_config_ui:change_advanced_trading]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_basic_trading] with net.minecraft.class_9139$1@4daa74e8
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeBasicTradingMessage with class_9154[id=easy_npc_config_ui:change_basic_trading]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_combat_attribute] with net.minecraft.class_9139$1@14a7059a
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeCombatAttributeMessage with class_9154[id=easy_npc_config_ui:change_combat_attribute]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_display_attribute] with net.minecraft.class_9139$1@7da896ce
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeDisplayAttributeMessage with class_9154[id=easy_npc_config_ui:change_display_attribute]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_entity_attribute] with net.minecraft.class_9139$1@4c771d1a
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeEntityAttributeMessage with class_9154[id=easy_npc_config_ui:change_entity_attribute]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_entity_base_attribute] with net.minecraft.class_9139$1@210d6df
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeEntityBaseAttributeMessage with class_9154[id=easy_npc_config_ui:change_entity_base_attribute]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_environmental_attribute] with net.minecraft.class_9139$1@45eca186
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeEnvironmentalAttributeMessage with class_9154[id=easy_npc_config_ui:change_environmental_attribute]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_interaction_attribute] with net.minecraft.class_9139$1@1879b63f
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeInteractionAttributeMessage with class_9154[id=easy_npc_config_ui:change_interaction_attribute]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_model_equipment_visibility] with net.minecraft.class_9139$1@11bf534c
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeModelEquipmentVisibilityMessage with class_9154[id=easy_npc_config_ui:change_model_equipment_visibility]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_model_animation_data] with net.minecraft.class_9139$1@6d3e7afd
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeModelAnimationDataMessage with class_9154[id=easy_npc_config_ui:change_model_animation_data]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_model_pose] with net.minecraft.class_9139$1@3533222f
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeModelPoseMessage with class_9154[id=easy_npc_config_ui:change_model_pose]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_model_position] with net.minecraft.class_9139$1@2825f419
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeModelPositionMessage with class_9154[id=easy_npc_config_ui:change_model_position]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_model_rotation] with net.minecraft.class_9139$1@1b48c179
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeModelRotationMessage with class_9154[id=easy_npc_config_ui:change_model_rotation]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_model_scale] with net.minecraft.class_9139$1@31656e9a
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeModelScaleMessage with class_9154[id=easy_npc_config_ui:change_model_scale]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_model_visibility] with net.minecraft.class_9139$1@37e568cb
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeModelVisibilityMessage with class_9154[id=easy_npc_config_ui:change_model_visibility]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_movement_attribute] with net.minecraft.class_9139$1@56a2ba4d
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeMovementAttributeMessage with class_9154[id=easy_npc_config_ui:change_movement_attribute]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_name] with net.minecraft.class_9139$1@275c5251
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeNameMessage with class_9154[id=easy_npc_config_ui:change_name]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_pose] with net.minecraft.class_9139$1@74f191f3
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangePoseMessage with class_9154[id=easy_npc_config_ui:change_pose]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_position] with net.minecraft.class_9139$1@59340e5c
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangePositionMessage with class_9154[id=easy_npc_config_ui:change_position]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_profession] with net.minecraft.class_9139$1@6d96a211
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeProfessionMessage with class_9154[id=easy_npc_config_ui:change_profession]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_renderer] with net.minecraft.class_9139$1@4104a61
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeRendererMessage with class_9154[id=easy_npc_config_ui:change_renderer]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_skin] with net.minecraft.class_9139$1@23fc1fb4
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeSkinMessage with class_9154[id=easy_npc_config_ui:change_skin]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:change_trading_type] with net.minecraft.class_9139$1@218c9377
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ChangeTradingTypeMessage with class_9154[id=easy_npc_config_ui:change_trading_type]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:export_preset] with net.minecraft.class_9139$1@68651d74
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ExportPresetMessage with class_9154[id=easy_npc_config_ui:export_preset]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:export_world_preset] with net.minecraft.class_9139$1@796a1925
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ExportWorldPresetMessage with class_9154[id=easy_npc_config_ui:export_world_preset]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:import_preset] with net.minecraft.class_9139$1@727b6abf
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ImportPresetMessage with class_9154[id=easy_npc_config_ui:import_preset]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:spawn_preset] with net.minecraft.class_9139$1@61d8b99f
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message SpawnPresetMessage with class_9154[id=easy_npc_config_ui:spawn_preset]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:open_action_data_editor] with net.minecraft.class_9139$1@30025563
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message OpenActionDataEditorMessage with class_9154[id=easy_npc_config_ui:open_action_data_editor]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:open_action_data_entry_editor] with net.minecraft.class_9139$1@167e2810
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message OpenActionDataEntryEditorMessage with class_9154[id=easy_npc_config_ui:open_action_data_entry_editor]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:open_condition_data_editor] with net.minecraft.class_9139$1@3c594af9
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message OpenConditionDataEditorMessage with class_9154[id=easy_npc_config_ui:open_condition_data_editor]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:open_condition_data_entry_editor] with net.minecraft.class_9139$1@2c27bba2
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message OpenConditionDataEntryEditorMessage with class_9154[id=easy_npc_config_ui:open_condition_data_entry_editor]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:open_configuration_screen] with net.minecraft.class_9139$1@5111ce03
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message OpenConfigurationMessage with class_9154[id=easy_npc_config_ui:open_configuration_screen]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:open_dialog_button_editor] with net.minecraft.class_9139$1@4858d565
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message OpenDialogButtonEditorMessage with class_9154[id=easy_npc_config_ui:open_dialog_button_editor]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:open_dialog_editor] with net.minecraft.class_9139$1@327609e8
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message OpenDialogEditorMessage with class_9154[id=easy_npc_config_ui:open_dialog_editor]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:open_menu_message] with net.minecraft.class_9139$1@5f08c07d
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message OpenMenuMessage with class_9154[id=easy_npc_config_ui:open_menu_message]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:open_dialog_text_editor] with net.minecraft.class_9139$1@76240d9e
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message OpenDialogTextEditorMessage with class_9154[id=easy_npc_config_ui:open_dialog_text_editor]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:remove_dialog_button] with net.minecraft.class_9139$1@7a0c0104
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message RemoveDialogButtonMessage with class_9154[id=easy_npc_config_ui:remove_dialog_button]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:remove_dialog] with net.minecraft.class_9139$1@6619b627
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message RemoveDialogMessage with class_9154[id=easy_npc_config_ui:remove_dialog]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:remove_npc] with net.minecraft.class_9139$1@67e8fc95
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message RemoveNPCMessage with class_9154[id=easy_npc_config_ui:remove_npc]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:remove_objective] with net.minecraft.class_9139$1@2eebd505
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message RemoveObjectiveMessage with class_9154[id=easy_npc_config_ui:remove_objective]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:reset_execution_limit] with net.minecraft.class_9139$1@51e16f7b
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message ResetExecutionLimitMessage with class_9154[id=easy_npc_config_ui:reset_execution_limit]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:request_data_sync] with net.minecraft.class_9139$1@2ffa83b8
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message RequestDataSyncMessage with class_9154[id=easy_npc_config_ui:request_data_sync]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:respawn_npc] with net.minecraft.class_9139$1@5c82f04
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message RespawnNPCMessage with class_9154[id=easy_npc_config_ui:respawn_npc]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:save_dialog_button] with net.minecraft.class_9139$1@2b2aecaa
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message SaveDialogButtonMessage with class_9154[id=easy_npc_config_ui:save_dialog_button]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:save_dialog] with net.minecraft.class_9139$1@2b8d1741
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message SaveDialogMessage with class_9154[id=easy_npc_config_ui:save_dialog]
+[17:54:34] [main/INFO]: Registering server payload type class_9154[id=easy_npc_config_ui:save_dialog_set] with net.minecraft.class_9139$1@2a567292
+[17:54:34] [main/INFO]: [NetworkHandler] Registering server network message SaveDialogSetMessage with class_9154[id=easy_npc_config_ui:save_dialog_set]
+[17:54:34] [main/INFO]: Registering server network handler for Server -> Client messages.
+[17:54:34] [main/INFO]: 🗣 Register Easy NPC: Config UI Client Network Message Handler ...
+[17:54:34] [main/INFO]: Constructing components for easymagic:common
+[17:54:34] [main/INFO]: Constructing components for enchantinginfuser:common
+[17:54:35] [main/INFO]: Loaded config farmersdelight-common.json
+[17:54:35] [main/INFO]: Reflections took 237 ms to scan 3 urls, producing 8 keys and 131 values
+[17:54:36] [main/INFO]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[17:54:37] [main/INFO]: Registered synced config with path sereneseasons/fertility.toml
+[17:54:37] [main/INFO]: Registered synced config with path sereneseasons/seasons.toml
+[17:54:37] [main/INFO]: Initializing JamLib on Fabric
+[17:54:37] [main/INFO]: [KONKRETE] Loading v1.9.18 in server-side mode on FABRIC!
+[17:54:37] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
+[17:54:37] [main/INFO]: Hello Fabric world!
+[17:54:38] [main/WARN]: [MELODY] Disabling Melody since it's loaded server-side.
+[17:54:38] [main/INFO]: Definitely not up to no good
+[17:54:38] [main/INFO]: [More Mobs] MidnightLib detected!
+[17:54:38] [main/INFO]: [More Mobs] Registering server started event ...
+[17:54:38] [main/INFO]: [More Mobs] Loaded More Mobs by Tschipcraft successfully!
+[17:54:38] [main/INFO]: Thank you for using Nemo's Enchantments
+[17:54:38] [main/INFO]: Constructing components for puzzleslib:common
+[17:54:38] [main/INFO]: Updated config file at /workspaces/Server/servidor_minecraft/config/rightclickharvest.json5
+[17:54:38] [main/INFO]: Initializing Right Click Harvest on FABRIC
+[17:54:38] [main/INFO]: [Spawn Animations] MidnightLib detected!
+[17:54:38] [main/INFO]: [Spawn Animations] Registering server started event ...
+[17:54:38] [main/INFO]: [Spawn Animations] Loaded Spawn Animations by Tschipcraft successfully!
+[17:54:38] [main/INFO]: New compacting rule 4 minecraft:clay_ball = 1 minecraft:clay
+[17:54:38] [main/INFO]: New compacting rule 4 minecraft:snowball = 1 minecraft:snow_block
+[17:54:38] [main/INFO]: New compacting rule 4 minecraft:glowstone_dust = 1 minecraft:glowstone
+[17:54:38] [main/INFO]: New compacting rule 4 minecraft:brick = 1 minecraft:bricks
+[17:54:38] [main/INFO]: New compacting rule 4 minecraft:nether_brick = 1 minecraft:nether_bricks
+[17:54:38] [main/INFO]: New compacting rule 9 minecraft:nether_wart = 1 minecraft:nether_wart_block
+[17:54:38] [main/INFO]: New compacting rule 4 minecraft:quartz = 1 minecraft:quartz_block
+[17:54:38] [main/INFO]: New compacting rule 9 minecraft:melon_slice = 1 minecraft:melon
+[17:54:38] [main/INFO]: New compacting rule 9 minecraft:bamboo = 1 minecraft:bamboo_block
+[17:54:38] [main/INFO]: New compacting rule 4 minecraft:clay_ball = 1 minecraft:clay
+[17:54:38] [main/INFO]: New denied storage item storagedrawers:creative_vending_upgrade
+[17:54:38] [main/INFO]: Adding ore conversions for types: c:storage_blocks, c:ingots, c:nuggets
+[17:54:38] [main/INFO]: Adding ore conversions for materials: aluminum, constantan, steel, uranium, invar, tin, lead, silver, platinum, nickel, osmium, bronze, electrum
+[17:54:38] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[17:54:38] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[17:54:38] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[17:54:38] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[17:54:38] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[17:54:38] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[17:54:38] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[17:54:38] [main/INFO]: Initializing TerrainSlabs
+[17:54:38] [main/INFO]: Registering Mod Blocks for terrainslabs
+[17:54:38] [main/INFO]: Registering Mod items for terrainslabs
+[17:54:38] [main/INFO]: Registering Mod Item Groups
+[17:54:39] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[17:54:39] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[17:54:39] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[17:54:39] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[17:54:39] [main/INFO]: Initializing the Undead Nights Mod
+[17:54:39] [main/INFO]: Loading undeadnights horde mobs config
+[17:54:39] [main/INFO]: No target entities specified in horde mob config, no additional entities will be targeted.
+[17:54:39] [main/INFO]: Default horde mob undeadnights:horde_zombie was read from config.
+[17:54:39] [main/INFO]: Horde mob undeadnights:elite_zombie with chance 3% was read from config.
+[17:54:39] [main/INFO]: Horde mob undeadnights:demolition_zombie with chance 6% was read from config.
+[17:54:39] [main/INFO]: Setting current difficulty level to: Level 1
+[17:54:39] [main/INFO]: Loaded difficulty config with 1 difficulty levels.
+[17:54:39] [main/INFO]: Registering Mod Items for undeadnights
+[17:54:39] [main/INFO]: Registering Sounds for undeadnights
+[17:54:39] [main/INFO]: Registering Item Groups for undeadnights
+[17:54:39] [main/INFO]: [STDOUT]: Initialize WeaponMaster
+[17:54:39] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[17:54:40] [main/ERROR]: Invalid path in mod resource-pack connectiblechains: minecraft:tags/item/README.md, ignoring
+[17:54:41] [Worker-Main-3/INFO]: 🗣 Register Easy NPC: Core /easy_npc commands for Easy NPC ...
+[17:54:41] [Worker-Main-3/INFO]: 🗣 Register Easy NPC: Config UI /easy_npc_config_ui commands for Easy NPC: Config UI ...
+[17:54:42] [main/INFO]: Loaded 4103 recipes
+[17:54:42] [main/INFO]: Loaded 3694 advancements
+[17:54:42] [main/INFO]: Loaded 0 trades
+[17:54:43] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[17:54:43] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[17:54:44] [main/INFO]: Applied 762 biome modifications to 142 of 142 new biomes in 167.9 ms
+[17:54:44] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[17:54:44] [Server thread/INFO]: Dispatching loading event for config enchantinginfuser-server.toml
+[17:54:44] [Server thread/INFO]: 🗣 Register Easy NPC: Core Server is starting Events ...
+[17:54:44] [Server thread/INFO]: 🗣 Register Easy NPC: Core Server data folders ...
+[17:54:44] [Server thread/INFO]: 🗣 Register Easy NPC: Core Pose data folders ...
+[17:54:44] [Server thread/INFO]: 🗣 Register Easy NPC: Core custom pose data ...
+[17:54:44] [Server thread/INFO]: Copied skin model pose file easy_npc:poses/humanoid_slim/humanoid_slim_poses.json to ./config/easy_npc/pose/humanoid_slim/humanoid_slim_poses.json
+[17:54:44] [Server thread/INFO]: 🗣 Register Easy NPC: Core custom poses from ./config/easy_npc/pose ...
+[17:54:44] [Server thread/INFO]: Found custom pose file ./config/easy_npc/pose/humanoid_slim/humanoid_slim_poses.json ...
+[17:54:44] [Server thread/INFO]: [Pose Manager] Registering pose data easy_npc:pose/humanoid_slim/crouching with Animation{name='Crouching', loop='hold_on_last_frame', animation_length=null, bones={Head=Bone{position=[0.0, -4.2, 0.0], rotation=[-7.5, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, Body=Bone{position=[0.0, -3.2, 0.0], rotation=[20.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightArm=Bone{position=[0.0, -3.2, 1.0], rotation=[40.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftArm=Bone{position=[0.0, -3.2, 1.0], rotation=[40.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightLeg=Bone{position=[0.0, 0.0, 4.0], rotation=[-25.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftLeg=Bone{position=[0.0, 0.0, 3.0], rotation=[-10.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}}}
+[17:54:44] [Server thread/INFO]: [Pose Manager] Registering pose data easy_npc:pose/humanoid_slim/standing with Animation{name='Standing', loop='hold_on_last_frame', animation_length=null, bones={Head=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, Body=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightArm=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftArm=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightLeg=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftLeg=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}}}
+[17:54:44] [Server thread/INFO]: [Pose Manager] Registering pose data easy_npc:pose/humanoid_slim/sitting with Animation{name='Sitting', loop='hold_on_last_frame', animation_length=null, bones={Head=Bone{position=[0.0, -10.5, 0.0], rotation=[0.0, 0.0, -2.5], scale=null, keyframePosition=null, keyframeRotation=null}, Body=Bone{position=[0.0, -10.5, 0.0], rotation=null, scale=null, keyframePosition=null, keyframeRotation=null}, RightArm=Bone{position=[0.0, -10.5, 0.0], rotation=[-35.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftArm=Bone{position=[0.0, -10.5, 0.0], rotation=[-35.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightLeg=Bone{position=[0.0, -10.0, 0.0], rotation=[-90.0, 15.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftLeg=Bone{position=[0.0, -10.0, 0.0], rotation=[-90.0, -10.5, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}}}
+[17:54:44] [Server thread/INFO]: [Pose Manager] Registering pose data easy_npc:pose/humanoid_slim/chilling with Animation{name='Chilling', loop='hold_on_last_frame', animation_length=null, bones={Head=Bone{position=[0.0, -12.5, 2.0], rotation=[-2.5, 0.0, 2.5], scale=null, keyframePosition=null, keyframeRotation=null}, Body=Bone{position=[0.0, -12.25, 3.0], rotation=[-20.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightArm=Bone{position=[0.0, -12.5, 2.0], rotation=[17.5, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftArm=Bone{position=[0.0, -12.5, 2.0], rotation=[20.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightLeg=Bone{position=[0.0, -10.0, 0.0], rotation=[-90.0, 15.0, -5.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftLeg=Bone{position=[0.0, -10.0, 0.75], rotation=[-90.0, -10.5, 5.0], scale=null, keyframePosition=null, keyframeRotation=null}}}
+[17:54:44] [Server thread/INFO]: [Pose Manager] Registering pose data easy_npc:pose/humanoid_slim/rest with Animation{name='Rest', loop='hold_on_last_frame', animation_length=null, bones={Head=Bone{position=[0.0, -12.0, 0.0], rotation=[5.0, 0.0, 5.0], scale=null, keyframePosition=null, keyframeRotation=null}, Body=Bone{position=[0.0, -12.0, 0.0], rotation=[0.0, 0.0, 2.5], scale=null, keyframePosition=null, keyframeRotation=null}, RightArm=Bone{position=[-1.0, -11.0, 0.0], rotation=[-75.0, -30.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftArm=Bone{position=[0.0, -12.0, 0.0], rotation=[-52.5, -5.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightLeg=Bone{position=[-3.0, -2.0, -2.0], rotation=[-32.5, -20.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftLeg=Bone{position=[6.75, -10.0, 0.0], rotation=[-90.0, 40.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}}}
+[17:54:44] [Server thread/INFO]: 🗣 Register Easy NPC: Core Backup data folders ...
+[17:54:44] [Server thread/INFO]: 🗣 Register Easy NPC: Core Preset data folders ...
+[17:54:44] [Server thread/INFO]: 🗣 Register Easy NPC: Core custom preset data ...
+[17:54:44] [Server thread/INFO]: 🗣 Register Easy NPC: Core world preset data ...
+[17:54:44] [Server thread/INFO]: Loading server configs...
+[17:54:44] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[17:54:44] [Server thread/INFO]: Loading properties
+[17:54:44] [Server thread/INFO]: Default game type: SURVIVAL
+[17:54:44] [Server thread/INFO]: Generating keypair
+[17:54:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:54:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:54:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:54:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:54:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:54:44] [Server thread/INFO]: Preparing level "world"
+[17:54:44] [Server thread/INFO]: Loading 25 persistent chunks...
+[17:54:44] [Server thread/INFO]: Preparing spawn area: 28%
+[17:54:45] [Server thread/INFO]: Preparing spawn area: 28%
+[17:54:45] [Server thread/INFO]: Preparing spawn area: 28%
+[17:54:46] [Server thread/INFO]: Preparing spawn area: 28%
+[17:54:46] [Server thread/INFO]: Preparing spawn area: 28%
+[17:54:47] [Server thread/INFO]: Preparing spawn area: 28%
+[17:54:47] [Server thread/INFO]: Preparing spawn area: 28%
+[17:54:48] [Server thread/INFO]: Preparing spawn area: 28%
+[17:54:48] [Server thread/INFO]: Preparing spawn area: 28%
+[17:54:49] [Server thread/INFO]: Preparing spawn area: 28%
+[17:54:49] [Server thread/INFO]: Preparing spawn area: 28%
+[17:54:50] [Server thread/INFO]: Preparing spawn area: 37%
+[17:54:50] [Server thread/INFO]: Time elapsed: 5859 ms
+[17:54:50] [Server thread/INFO]: Done (6.433s)! For help, type "help"
+[17:54:50] [Server thread/INFO]: [More Mobs] Sending global config to world ...
+[17:54:50] [Server thread/INFO]: [Spawn Animations] Sending global config to world ...
+[17:55:22] [Server thread/INFO]: liilkawe[/127.219.131.149:50005] logged in with entity id 51 at (18.30000001192093, 121.0, -468.30000001192093)
+[17:55:22] [Server thread/INFO]: Loading config from file...
+[17:55:22] [Server thread/INFO]: liilkawe joined the game
+[17:55:23] [Server thread/INFO]: [do_a_barrel_roll] Client of liilkawe accepted server config.
+[17:55:24] [Server thread/INFO]: [ShulkerBoxTooltip] liilkawe: protocol version: 2.0
+[17:55:24] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[17:55:24] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 51 providers for mod shulkerboxtooltip
+[17:55:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2578ms or 51 ticks behind
+[17:55:51] [Server thread/INFO]: liilkawe lost connection: Disconnected
+[17:55:51] [Server thread/INFO]: liilkawe left the game
+[17:56:51] [Server thread/INFO]: Server empty for 60 seconds, pausing
