@@ -1,0 +1,31 @@
+# DeathCounter — config.yml under plugins/DeathCounter/
+
+update-checker:
+    enabled: false
+    source: modrinth
+    modrinth-project-id: deathcount
+    spigot-url: ''
+storage:
+    file: data/deaths.yml
+leaderboard:
+    broadcast-interval-seconds: 0
+    top-entries: 10
+display:
+    scoreboard-sidebar: true
+    sidebar-title: '&cDeathCounter'
+    tab-list-entry-format: '&f{player} &8| &c{deaths}'
+messages:
+    own-deaths: '&7Your deaths: &c{deaths}'
+    other-deaths: '&7{player}&7''s deaths: &c{deaths}'
+    no-permission: '&cYou do not have permission to do that.'
+    unknown-player: '&cCould not resolve that player.'
+    reset-player: '&aReset deaths for &f{player}&a.'
+    reset-all: '&aAll death counts were reset.'
+    leaderboard-header: '&6&m-----&r &lDeath leaderboard &6&m-----'
+    leaderboard-line: '&e{rank}. &f{player} &8» &c{deaths}'
+    leaderboard-footer: '&6&m-----------------------------'
+    death-broadcast: ''
+    sidebar-scoreboard-hidden: '&7The right-sidebar DeathCounter leaderboard is now
+        hidden.'
+    sidebar-scoreboard-shown: '&7The right-sidebar DeathCounter leaderboard is shown
+        again.'

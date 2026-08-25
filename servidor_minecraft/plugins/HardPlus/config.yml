@@ -1,0 +1,87 @@
+module:
+  cold-damage:
+    enable: true
+    timer:
+      delay: 10
+      period: 10
+  creeper-charge:
+    enable: true
+    radius: 16.0
+    timer:
+      delay: 10
+      period: 10
+  creeper-explode:
+    enable: true
+    radius: 2.5
+    timer:
+      delay: 10
+      period: 10
+  damage-critical:
+    enable: true
+  damage-give:
+    enable: true
+    modifier: 0.4
+  damage-take:
+    enable: true
+    modifier:
+      default: 2.5
+      player: 2.5
+      melee: 2.5
+      fall: 2.5
+      magic: 2.5
+      environment: 2.5
+      mob:
+        passive: 2.5
+        hostile:
+          default: 2.5
+          zombie: 2.5
+          skeleton: 2.5
+          enderman: 2.5
+  dangerous-nether-chest:
+    enable: true
+    radius: 32.0
+  fast-air:
+    enable: true
+    modifier: 40
+  fire-forever:
+    enable: true
+  hunger-debuff:
+    enable: true
+    food-level: 6
+  lava-death:
+    enable: true
+  mob-target:
+    enable: true
+    range: 16.0
+    timer:
+      delay: 10
+      period: 10
+  no-fire-resistance:
+    enable: true
+  no-sweep:
+    enable: true
+  no-water:
+    enable: true
+    timer:
+      delay: 10
+      period: 10
+  sharp-cut:
+    enable: true
+    condition:
+      jump: true
+      run: true
+    check:
+      sword: true
+      axe: true
+      shear: true
+  uncooked-poison:
+    enable: true
+    duration: 30
+  wither-skeleton-bow:
+    enable: true
+    spawn-chance: 50.0
+    bow:
+      damage-level: 3
+      knockback-level: 2
+    arrow:
+      wither-level: 0

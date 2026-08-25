@@ -1,0 +1,11 @@
+total-deaths: 8
+dead-players:
+- d5b67ebb-5233-3f5c-acd5-20a35d393d32
+death-locations:
+  d5b67ebb-5233-3f5c-acd5-20a35d393d32:
+    world: world_nether
+    x: 358.173518170175
+    y: 32.41999998688698
+    z: -281.36372540494386
+    yaw: -172.47327
+    pitch: 36.300022

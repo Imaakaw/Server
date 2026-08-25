@@ -1,0 +1,43 @@
+# ============================================
+# Hardcore Deluxe Configuration
+# by DrafterPlus
+# ============================================
+#
+# This file contains all settings for the Hardcore Deluxe plugin.
+# Edit values below and use /hd reload to apply changes.
+#
+
+default-spectate-time: 'off'
+spectate-chunks: -1
+spawn-radius: 50
+ban-on-death: false
+
+features:
+  hardcore-hearts: true
+  death-particles: true
+  death-sound: false
+  death-reason: true
+  action-bar-timer: true
+
+messages:
+  prefix: <gradient:dark_red:red><bold>Hardcore Deluxe</bold> <dark_gray>» <gray>
+  death-announcement: |-
+    <#FF0000><bold>JAJAJA que pendejo se murió <player>! ☠️</bold>
+    <#CCCCCC>Qué malo, tan fácil era no morir...</#CCCCCC>
+  spectating: <gray>You are now spectating for <red><bold><time></bold></red>
+  time-remaining: <red><bold><time>
+  ban-message: |-
+    <#FF0000><bold>GAME OVER</bold>
+
+    <#CCCCCC>¡Se te acabó el juego, pendejo!
+
+    <#888888>Ya no puedes jugar más, jaja.
+  revived: <green><bold>✓</bold> <green>Te han revivido, no te vayas a morir de nuevo,
+    pendejo!</green>
+  revived-admin: '<green><bold>✓</bold> <green>Reviviste a este pendejo: <yellow><player></yellow></green>'
+  config-reloaded: <green><bold>✓</bold> <green>Configuración recargada, pendejo</green>
+  invalid-time: <red>Formato de tiempo inválido. Usa 1s, 1m, 1h o off, pendejo</red>
+  usage: '<red>Uso: /hd <spectatetime|spectatechunks|revive|reviveall|deathreason|deathsound|spawnradius|help|reload>'
+  not-dead: <red>Ese pendejo no está muerto</red>
+  revive-all-success: <#00FF00><bold>✓</bold> <#00FF00>Reviviste a <#FFFF00><bold><count></bold><#00FF00>
+    pendejos<count_plural></#00FF00>
